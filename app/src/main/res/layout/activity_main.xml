@@ -15,7 +15,8 @@
         android:layout_marginBottom="32dp"
         android:background="#8CE490"
         android:fontFamily="casual"
-        android:text="MY first app"
+        android:text="CALCULATOR"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.443"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -27,6 +28,7 @@
         android:id="@+id/num1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:hint="Number 1"
         android:layout_marginStart="44dp"
         android:layout_marginTop="28dp"
         android:layout_marginBottom="17dp"
@@ -41,6 +43,7 @@
         android:id="@+id/num2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:hint="Number 2"
         android:layout_marginStart="44dp"
         android:layout_marginBottom="440dp"
         android:ems="10"
@@ -54,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="48dp"
-        android:text="+"
+        android:text="Add"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/num2" />
 
@@ -64,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="124dp"
-        android:text="-"
+        android:text="Subtract"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/num2" />
 
@@ -74,7 +77,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="196dp"
-        android:text="*"
+        android:text="Multiply"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/num2" />
 
@@ -84,17 +87,18 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="276dp"
-        android:text="/"
+        android:text="Divide"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/num2" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/result"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
         android:layout_marginTop="52dp"
-        android:text="result"
+        android:hint="Result"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/b5" />
 
