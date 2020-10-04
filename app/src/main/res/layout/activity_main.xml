@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BB8F8F"
+    android:background="#6FADA4"
     android:backgroundTint="#CE9A9A"
     tools:context=".MainActivity">
 
@@ -28,11 +28,11 @@
         android:id="@+id/num1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Number 1"
         android:layout_marginStart="44dp"
         android:layout_marginTop="28dp"
         android:layout_marginBottom="17dp"
         android:ems="10"
+        android:hint="Number 1"
         android:inputType="numberSigned"
         app:layout_constraintBottom_toTopOf="@+id/num2"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,10 +43,10 @@
         android:id="@+id/num2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Number 2"
         android:layout_marginStart="44dp"
         android:layout_marginBottom="440dp"
         android:ems="10"
+        android:hint="Number 2"
         android:inputType="numberSigned|numberDecimal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
