@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
     EditText num1 , num2;
     Button b1 ,b2 , b4 , b5 ;
 
-    int n1,n2;
-    float r;
+    double n1,n2;
+    double r;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,8 +65,8 @@ public class MainActivity extends AppCompatActivity {
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                n1=Integer.parseInt(num1.getText().toString());
-                n2=Integer.parseInt(num2.getText().toString());
+                n1=Double.parseDouble(num1.getText().toString());
+                n2=Double.parseDouble(num2.getText().toString());
                 r=n1/n2;
                 result.setText(String.valueOf(r));
 
